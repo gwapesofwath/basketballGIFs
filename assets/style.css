@@ -1,0 +1,21 @@
+button, input {
+   background-color: #cee;
+   font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #bbb, 2px 2px 0px #bbb, 3px 3px 0px #bbb;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+
+body {
+    background-color: orange;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+img {
+    height: 300px;
+    width: 370px;
+    margin: 10px;
+}
+
