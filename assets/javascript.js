@@ -34,15 +34,15 @@ $("#newButtons").on("click",".basketballTings", function() {
             for (let g = 0; g < response.data.length; g++) {
                 let gifUrl = response.data[g].images.downsized_medium.url;
                 let stillUrl = response.data[g].images["480w_still"].url;
-                let rating = response.data[g].rating;
                 let newGif = $("<img>");
+
                 newGif.addClass("gifImage");
                 newGif.attr("data-stillUrl", stillUrl);
                 newGif.attr("data-gifUrl", gifUrl)
                 newGif.attr("src", stillUrl);
                 newGif.attr("alt", "basketball gif");
 
-                $("#basketballGifs").prepend(newGif,rating);
+                $("#basketballGifs").prepend(newGif);
             } 
 
         })
